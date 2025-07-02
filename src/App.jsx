@@ -1,12 +1,13 @@
 import React from 'react';
+import Header from './components/homepage/Header';
+import About from './components/homepage/About';
 
 function App() {
   return (
-    <>
-      <main className="bg-blue-600 text-black font-bold text-4xl text-center justify-center h-screen p-4">
-        <p>This will be the home page for my units.</p>
-      </main>
-    </>
+   <div className='bg-[#2c3968]'>
+    <Header />
+    <About />
+   </div>
   );
 }
 
